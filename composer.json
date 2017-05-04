@@ -1,0 +1,21 @@
+{
+    "name": "hahaxixi-rabbitmq/yii2-rabbit",
+    "description": "基于php-amqplib的封装",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hahaxixi",
+            "email": "huanghe2014@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "hahaxixi\\rabbit\\": ""
+        }
+    }
+}
